@@ -1,6 +1,7 @@
 ﻿#if WINDOWS
 using Microsoft.UI;
 using Microsoft.UI.Windowing;
+using Views;
 using Windows.Graphics;
 #endif
 
@@ -27,6 +28,6 @@ public partial class App : Application
         });
 #endif
 
-        MainPage = new AppShell();
+        MainPage = new NavigationPage(new StartPage());
 	}
 }
