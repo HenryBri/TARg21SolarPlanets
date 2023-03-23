@@ -18,5 +18,27 @@
             WidthRequest="96"
             HeightRequest="96"/>
 
+        <Image
+            x:Name="imgJupiter"
+            Opacity="0"
+            Source="jupiter.png"
+            VerticalOptions="Center"
+            HorizontalOptions="Start"
+            TranslationX="-100"
+            TranslationY="-64"
+            WidthRequest="200"
+            HeightRequest="200"/>
+
+        <Image
+            x:Name="imgSaturn"
+            Opacity="0"
+            Source="saturn.png"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            TranslationX="-32"
+            TranslationY="-76"
+            WidthRequest="300"
+            HeightRequest="300"/>
+
     </Grid>
 </ContentPage>
