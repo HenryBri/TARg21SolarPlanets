@@ -14,8 +14,8 @@
                 AccentColorEnd = Color.FromArgb("#8d9098"),
                 Images = new()
                 {
-                    "https://cdn.theatlantic.com/thumbor/D15rQggf6357X1-u6VpTD2N1yQE=/0x27:1041x613/976x549/media/img/mt/2017/04/MercuryImage/original.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/73_carousel_mercury_2.jpg",
+                    "https://en.wikipedia.org/wiki/Mercury_(planet)#/media/File:Mercury_in_true_color.jpg",
+                    "https://en.wikipedia.org/wiki/Mercury_(planet)#/media/File:EW1027346412Gnomap.png",
                     "https://solarsystem.nasa.gov/system/feature_items/images/75_mercury_carousel_1.jpg"
                 }
             }
@@ -29,5 +29,8 @@
 
             return randomizedPlanets.Take(2).ToList();
         }
+
+        public static List<Planet> GetAllPlanets() 
+            => planets;
     }
 }
