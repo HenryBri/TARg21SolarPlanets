@@ -11,8 +11,8 @@ public static class MauiProgram
 			{
 				fonts.AddFont("Montserrat-Medium.ttf", "RegularFont");
 				fonts.AddFont("Montserrat-SemiBold.ttf", "MediumFont");
-                fonts.AddFont("Montserrat-Bold.ttf", "BoldFont");
-            });
+				fonts.AddFont("Montserrat-Bold.ttf", "BoldFont");
+			});
 
 		return builder.Build();
 	}
