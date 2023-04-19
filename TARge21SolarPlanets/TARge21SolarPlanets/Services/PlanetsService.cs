@@ -176,7 +176,8 @@
                 AccentColorEnd = Color.FromArgb("#49C9E9"),
                 Images = new()
                 {
-                    "https://solarsystem.nasa.gov/system/stellar_items/image_files/723_feature_1600x900_haumea.jpg"
+                    "https://solarsystem.nasa.gov/system/stellar_items/image_files/723_feature_1600x900_haumea.jpg",
+                    "https://www.shutterstock.com/shutterstock/videos/1079831042/thumb/1.jpg?ip=x480"
                 }
             },
 
@@ -201,8 +202,8 @@
                 Subtitle = "  The goddess of discord and strife",
                 HeroImage = "eris.png",
                 Description = "Eris is one of the largest known dwarf planets in our solar system. It's about the same size as Pluto but is three times farther from the Sun.",
-                AccentColorStart = Color.FromArgb("#dbd8d4"),
-                AccentColorEnd = Color.FromArgb("#c4c1bf"),
+                AccentColorStart = Color.FromArgb("#808080"),
+                AccentColorEnd = Color.FromArgb("#707070"),
                 Images = new()
                 {
                     "https://cdn.mos.cms.futurecdn.net/ufTfK2rbpQXZBjt2ZPsm57.jpg",
