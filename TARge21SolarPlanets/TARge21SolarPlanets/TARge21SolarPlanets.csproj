@@ -32,8 +32,7 @@
 
 	<ItemGroup>
 		<!-- App Icon -->
-		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
-
+    <MauiIcon Include="Resources\AppIcon\appicon.svg" />
 		<!-- Splash Screen -->
 		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#512BD4" BaseSize="128,128" />
 
@@ -49,6 +48,11 @@
 
 	<ItemGroup>
 	  <None Remove="Resources\Images\apipic.png" />
+	  <None Remove="Resources\Images\ceres.png" />
+	  <None Remove="Resources\Images\eris.png" />
+	  <None Remove="Resources\Images\haumea.png" />
+	  <None Remove="Resources\Images\makemake.png" />
+	  <None Remove="Resources\Images\pluto.png" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -56,6 +60,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Views\PlanetDetailsPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\PlanetsPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
